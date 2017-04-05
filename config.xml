@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="uk.co.123app.PropertyLounge" version="4.9.3" android-versionCode="409030" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="uk.co.123app.PropertyLounge" version="4.9.4" android-versionCode="409040" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>TPL</name>
     <description>
         The Property Lounge application.
