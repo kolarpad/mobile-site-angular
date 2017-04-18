@@ -89,12 +89,14 @@
 
         <div id="fb-root"></div>
 
-        <ea-dialog class="rate-dialog" width="300px" data-show="signal.showRateDialog" data-dialog-title="Do you want to rate this app?">
+        <div data-ea-dialog data-show="signal.showRateDialog" data-dialog-title="Do you want to rate this app?" class="rate-dialog">
             <span>Selecting 'Yes' will take you out of this app and into the App Store.</span>
-            <a href="{{cfg.ps['app_url_' + cfg.api.source.toLowerCase()]}}" class="button" target="_blank" class="external-link" data-ng-click="signal.showRateDialog = false">Yes</a>
+            <a data-ng-href="{{cfg.ps['app_url_' + cfg.api.source.toLowerCase()]}}" class="button external-link" target="_blank" data-ng-click="signal.showRateDialog = false">Yes</a>
             <a href="" class="button" data-ng-click="signal.showRateDialog = false">No</a>
-        </ea-dialog>
+        </div>
     
-        <div id="bla"></div>
+        <div data-ng-if="needRepairDialog" data-ea-dialog data-show="signal.showRepairDialog" data-dialog-title="Choose a branch..." class="repair-dialog">
+            <a data-ng-repeat="(branch, url) in repairFormUrls" data-ng-href="{{::url}}" class="button external-link" target="_blank" data-ng-click="signal.showRepairDialog = false">{{::branch}}</a>
+        </div>
     </body>
 </html>
