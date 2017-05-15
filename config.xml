@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.adamshenry.ios" version="4.9.5" android-versionCode="409050" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.adamshenry.ios" version="4.9.6" android-versionCode="409060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Henry Adams</name>
     <description>
         Henry Adams application.
