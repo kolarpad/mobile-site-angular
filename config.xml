@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.marwood.iphone" version="4.9.6" android-versionCode="409060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Marwood</name>
+<widget id="com.ea.browns.iphone" version="4.9.6" android-versionCode="409060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Browns</name>
     <description>
-        Marwood Homes application.
+        Browns application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
