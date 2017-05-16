@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ios.beardgroup.com" version="4.9.6" android-versionCode="409060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Beard Group Property Search</name>
+    <name>Beard Group</name>
     <description>
         Beard Group application.
     </description>
