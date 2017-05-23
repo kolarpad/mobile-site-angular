@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.marwood.iphone" version="4.9.7" android-versionCode="409070" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Marwood</name>
+<widget id="com.coandlovett.iphone" version="4.9.7" android-versionCode="409070" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Lovett&amp;Co</name>
     <description>
-        Marwood Homes application.
+        Lovett and Co application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
