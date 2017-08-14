@@ -22,8 +22,8 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <plugin platform="android" name="cordova-plugin-whitelist" spec="1.2.1" source="npm" />
-    <plugin name="cordova-plugin-splashscreen" spec="3.2.0" source="npm" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" source="npm" />
+    <plugin name="cordova-plugin-splashscreen" spec="~3.2.0" source="npm" />
     <plugin name="cordova-plugin-contacts" spec="~2.0.1" source="npm" />
     <plugin name="cordova-plugin-device" spec="~1.1.1" source="npm" />
     <plugin name="cordova-plugin-geolocation" spec="~2.1.0" source="npm" />
