@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="eprMoginieJames" version="4.9.8" android-versionCode="409080" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Moginie James</name>
+<widget id="com.iphone.hsh.uk" version="4.9.8" android-versionCode="409080" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>HSH</name>
     <description>
-        Moginie James application.
+        Harvey Silver Hodgkinson application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
