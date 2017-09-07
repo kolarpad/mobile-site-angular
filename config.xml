@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.coandlovett.iphone" version="4.9.9" android-versionCode="409090" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Lovett&amp;Co</name>
+<widget id="com.estateapps.DevMobileSite" version="4.9.9" android-versionCode="409090" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Estate Apps</name>
     <description>
-        Lovett and Co application.
+        Estate Apps application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
