@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="eprMoginieJames" version="4.9.9" android-versionCode="409090" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Moginie James</name>
+<widget id="ios.beardgroup.com" version="4.9.9" android-versionCode="409090" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Beard Group</name>
     <description>
-        Moginie James application.
+        Beard Group application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
