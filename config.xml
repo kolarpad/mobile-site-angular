@@ -22,9 +22,12 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+<!--    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
         <string>Your current location will be displayed on the map and used for directions, nearby search results and estimated travel times.</string>
-    </edit-config>
+    </edit-config>-->
+    <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+        <string>Your current location will be displayed on the map and used for directions, nearby search results and estimated travel times.</string>
+    </config-file>
     <plugin name="cordova-plugin-whitelist" spec="~1.2.1" source="npm" />
     <plugin name="cordova-plugin-splashscreen" spec="~3.2.0" source="npm" />
     <plugin name="cordova-plugin-contacts" spec="~2.0.1" source="npm" />
