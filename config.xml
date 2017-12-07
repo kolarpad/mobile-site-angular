@@ -9,7 +9,7 @@
     </author>
     <access origin="*" />
     <allow-navigation href="*" />
-    <preference name='phonegap-version' value="cli-6.5.0" />
+    <preference name='phonegap-version' value="cli-6.5.2" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
     <preference name="DisallowOverscroll" value="true" /> 
@@ -22,9 +22,9 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
-<!--    <edit-config platform="ios" file="Info.plist" target="NSLocationWhenInUseUsageDescription" mode="overwrite">
+    <edit-config platform="ios" file="*-Info.plist" target="NSLocationWhenInUseUsageDescription" mode="overwrite">
         <string>Your current location will be displayed on the map and used for directions, nearby search results and estimated travel times.</string>
-    </edit-config>-->
+    </edit-config>
     <plugin name="cordova-plugin-whitelist" spec="~1.2.1" source="npm" />
     <plugin name="cordova-plugin-splashscreen" spec="~3.2.0" source="npm" />
     <plugin name="cordova-plugin-contacts" spec="~2.0.1" source="npm" />
