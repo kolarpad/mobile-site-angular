@@ -9,7 +9,7 @@
     </author>
     <access origin="*" />
     <allow-navigation href="*" />
-    <engine name="ios" spec="4.5.4" />
+    <engine name="ios" spec="https://github.com/apache/cordova-ios.git#4.5.4" />
     <preference name='phonegap-version' value="cli-6.5.0" />
     <preference name="orientation" value="default" />
     <preference name="fullscreen" value="false" />
