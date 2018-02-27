@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.estateapps.DevMobileSite" version="4.10.0" android-versionCode="410000" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Estate Apps</name>
+<widget id="com.johnpayne.ea" version="4.9.13" android-versionCode="409130" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>John Payne</name>
     <description>
-        Estate Apps application.
+        John Payne application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
