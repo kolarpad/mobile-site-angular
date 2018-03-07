@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="uk.co.123app.henryadams" version="4.9.13" android-versionCode="409130" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Henry Adams</name>
+<widget id="com.iphone.hsh.uk" version="4.10.1" android-versionCode="410010" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>HSH</name>
     <description>
-        Henry Adams application.
+        Harvey Silver Hodgkinson application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
