@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.iphone.hsh.uk" version="4.10.1" android-versionCode="410010" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.iphone.hsh.uk" version="4.10.2" android-versionCode="410020" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>HSH</name>
     <description>
         Harvey Silver Hodgkinson application.
