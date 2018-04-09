@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kingsleyhamiltonestates.ios" version="4.10.6" android-versionCode="410060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>KH Estates</name>
+<widget id="com.postcodeyourlove.ios" version="4.10.6" android-versionCode="410060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>WLYP</name>
     <description>
-        Kingsley Hamilton Estates application.
+        Love Your Postcode application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
