@@ -66,6 +66,6 @@
     <!--
     -->
     <platform name="ios">
-        <splash src="res/splash/ios/Default@2x~universal~anyany.png" />
+        <splash src="res/screen/ios/Default@2x~universal~anyany.png" />
     </platform>
 </widget>
