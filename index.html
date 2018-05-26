@@ -14,7 +14,7 @@
         <script src="cordova.js"></script>
         <script src="js/app.min.js"></script>
     </head>
-    <body data-ng-controller="mainCtrl" class="{{pageName}}" data-fb-pixel data-window-events data-ng-class="::{ios: isIOS, tablet: isTablet, 'calc-app': isCalcApp}" data-ng-style="{'background-color': isSearch && isTablet && !portBgImg.bg && !landBgImg.bg && ('#' + cfg.ps.bg_color)}">
+    <body data-ng-controller="mainCtrl" class="{{pageName}}" data-fb-pixel data-window-events data-ng-class="::{ios: isIOS, tablet: isTablet, 'calc-app': isCalcApp, 'safe-area': hasSafeArea}" data-ng-style="{'background-color': isSearch && isTablet && !portBgImg.bg && !landBgImg.bg && ('#' + cfg.ps.bg_color)}">
         <div data-client-css></div>
 
         <div data-pre-loading class="pre-loading">
@@ -72,7 +72,7 @@
 
         <div data-load-tpl="components/menu/fly-out-menu" data-index-by="aid"></div>
 
-        <div data-ng-view id="main-ct" class="main-ct" data-ng-class="::{login: isLoginPages}"></div>
+        <div data-ng-view id="main-ct" class="main-ct" data-ng-class="::{login: isLoginPages, search: isSearch}"></div>
 
         <div id="loader-wrapper-ct" class="hide" data-ng-class="{loaded: !loader.liLoading}">
             <div id="loader-wrapper">
