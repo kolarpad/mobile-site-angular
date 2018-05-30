@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.estateapps.DevMobileSite" version="4.10.10" android-versionCode="410100" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.estateapps.DevMobileSite" version="4.10.11" android-versionCode="410110" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Estate Apps</name>
     <description>
         Estate Apps application.
