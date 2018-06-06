@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.estateapps.DevMobileSite" version="4.10.11" android-versionCode="410110" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.estateapps.DevMobileSite" version="4.11.0" android-versionCode="411000" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Estate Apps</name>
     <description>
         Estate Apps application.
@@ -25,9 +25,11 @@
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
-    <config-file platform="ios" target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
-        <string>Your current location will be displayed on the map and used for directions, nearby search results and estimated travel times.</string>
-    </config-file>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" mode="merge">
+            <string>Your current location will be displayed on the map and used for directions, nearby search results and estimated travel times.</string>
+        </config-file>
+    </platform>
     <plugin name="cordova-plugin-whitelist" spec="~1.3.3" source="npm" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" source="npm" />
     <plugin name="cordova-plugin-contacts" spec="~3.0.1" source="npm" />
@@ -40,20 +42,20 @@
     <plugin name="cordova-plugin-file" spec="~6.0.1" source="npm" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.7.1" source="npm" />
     <plugin name="phonegap-plugin-push" spec="2.1.3" source="npm" />
+    <platform name="android">
+        <resource-file src="google-services.json" target="app/google-services.json" />
+    </platform>
+    <platform name="android">
+        <hook type="after_prepare" src="scripts/android/afterPrepareNotiIcon.js" />
+    </platform>
     <plugin name="uk.co.workingedge.phonegap.plugin.istablet" spec="~1.2.0" source="npm" />
-    <resource-file platform="android" src="google-services.json" target="app/google-services.json" />
     <icon platform="android" density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
     <icon platform="android" density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
     <icon platform="android" density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
     <icon platform="android" density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
     <icon platform="android" density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png" />
     <icon platform="android" density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png" />
-    <splash platform="android" density="port-ldpi" src="res/screen/android/drawable-ldpi-port/splash.9.png" />
-    <splash platform="android" density="port-mdpi" src="res/screen/android/drawable-mdpi-port/splash.9.png" />
-    <splash platform="android" density="port-hdpi" src="res/screen/android/drawable-hdpi-port/splash.9.png" />
-    <splash platform="android" density="port-xdpi" src="res/screen/android/drawable-xhdpi-port/splash.9.png" />
-    <splash platform="android" density="port-xxdpi" src="res/screen/android/drawable-xxhdpi-port/splash.9.png" />
-    <splash platform="android" density="port-xxxdpi" src="res/screen/android/drawable-xxxhdpi-port/splash.9.png" />
+    <splash platform="android" src="res/screen/android/splash.png" />
     <icon platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
     <icon platform="ios" src="res/icon/ios/icon-60.png" width="60" height="60" />
     <icon platform="ios" src="res/icon/ios/icon-60@2x.png" width="120" height="120" />
