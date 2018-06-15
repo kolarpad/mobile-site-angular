@@ -49,13 +49,6 @@
         <hook type="after_prepare" src="scripts/android/afterPrepareNotiIcon.js" />
     </platform>
     <plugin name="uk.co.workingedge.phonegap.plugin.istablet" spec="~1.2.0" source="npm" />
-    <icon platform="android" density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
-    <icon platform="android" density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
-    <icon platform="android" density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
-    <icon platform="android" density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
-    <icon platform="android" density="xxhdpi" src="res/icon/android/icon-144-xxhdpi.png" />
-    <icon platform="android" density="xxxhdpi" src="res/icon/android/icon-192-xxxhdpi.png" />
-    <splash platform="android" src="res/screen/android/splash.png" />
     <icon platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
     <icon platform="ios" src="res/icon/ios/icon-60.png" width="60" height="60" />
     <icon platform="ios" src="res/icon/ios/icon-60@2x.png" width="120" height="120" />
