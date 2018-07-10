@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.kingsleyhamiltonestates.ios" version="4.11.0" android-versionCode="411000" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.kingsleyhamiltonestates.ios" version="4.11.1" android-versionCode="411010" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>KH Estates</name>
     <description>
         Kingsley Hamilton Estates application.
