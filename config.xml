@@ -17,7 +17,6 @@
     <preference name="fullscreen" value="false" />
     <preference name="DisallowOverscroll" value="true" /> 
     <preference platform="ios" name="target-device" value="universal" />
-    <preference platform="android" name="android-minSdkVersion" value="16" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference platform="android" name="SplashMaintainAspectRatio" value="true" />
     <preference platform="ios" name="FadeSplashScreenDuration" value="350" />
