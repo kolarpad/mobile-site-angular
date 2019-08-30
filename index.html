@@ -16,6 +16,20 @@
         <script src="js/app.min.js"></script>
     </head>
     <body data-ng-controller="mainCtrl" class="{{pageName}}" data-fb-pixel data-window-events data-ng-class="::{ios: isIOS, tablet: isTablet, 'calc-app': isCalcApp, 'safe-area': hasSafeArea}" data-ng-style="{'background-color': isSearch && isTablet && !portBgImg.bg && !landBgImg.bg && ('#' + cfg.ps.bg_color)}">
+        <style data-ng-if="cfg.customFont" type="text/css">
+            @font-face {
+                font-family: '33535gillsansmt';
+                src: url('./fonts/33535gillsansmt.eot');
+                src: local('33535gillsansmt'), url('./fonts/33535gillsansmt.woff') format('woff'), url('./fonts/33535gillsansmt.ttf') format('truetype');
+            }
+            body,
+            input,
+            select,
+            textarea,
+            form .multiSelect .buttonLabel {
+                font-family: '33535gillsansmt' !important;
+            }
+        </style>
         <div data-client-css></div>
 
         <div data-pre-loading class="pre-loading">

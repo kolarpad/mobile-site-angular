@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="uk.co.123app.henryadams" version="4.11.6" android-versionCode="411060" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Henry Adams</name>
+<widget id="uk.co.fieldingproperties" version="4.12.0" android-versionCode="412000" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Fielding Properties</name>
     <description>
-        Henry Adams application.
+        Fielding Properties application.
     </description>
     <author email="kolarpad@yahoo.com" href="http://estateapps.co.uk/">
         Estate Apps Team
@@ -17,6 +17,7 @@
     <preference name="fullscreen" value="false" />
     <preference name="DisallowOverscroll" value="true" /> 
     <preference platform="ios" name="target-device" value="universal" />
+    <preference platform="android" name="android-targetSdkVersion" value="28" />
     <preference name="AutoHideSplashScreen" value="false" />
     <preference platform="android" name="SplashMaintainAspectRatio" value="true" />
     <preference platform="ios" name="FadeSplashScreenDuration" value="350" />
@@ -40,13 +41,6 @@
     <plugin name="cordova-plugin-inappbrowser" spec="~3.0.0" source="npm" />
     <plugin name="cordova-plugin-file" spec="~6.0.1" source="npm" />
     <plugin name="cordova-plugin-file-transfer" spec="~1.7.1" source="npm" />
-    <plugin name="phonegap-plugin-push" spec="2.1.3" source="npm" />
-    <platform name="android">
-        <resource-file src="google-services.json" target="app/google-services.json" />
-    </platform>
-    <platform name="android">
-        <hook type="after_prepare" src="scripts/android/afterPrepareNotiIcon.js" />
-    </platform>
     <plugin name="uk.co.workingedge.phonegap.plugin.istablet" spec="~1.2.0" source="npm" />
     <icon platform="ios" src="res/icon/ios/icon-60@3x.png" width="180" height="180" />
     <icon platform="ios" src="res/icon/ios/icon-60.png" width="60" height="60" />
