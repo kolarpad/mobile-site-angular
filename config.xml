@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="uk.co.fieldingproperties" version="4.12.0" android-versionCode="412000" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="uk.co.fieldingproperties" version="4.12.1" android-versionCode="412010" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Fielding Properties</name>
     <description>
         Fielding Properties application.
